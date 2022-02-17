@@ -1,0 +1,41 @@
+<!DOCTYPE <html> 
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Week 4 Forms</title>
+    </head>
+    <body>
+        <h1>Takeout Form</h1>
+        <form action="" method="post">
+            <lable for="fullname">Full Name</lable>
+            <input type="text" name="fullname" id="fullname"> <br>
+            <lable for="orderitem">Order Item</lable>
+            <input type="text" name="orderitem" id="orderitem"><br>
+                <lable>Special Request</lable>
+                <textarea name="specialrequest" id="special request"></textarea><br>
+                <p>How do you want to pay?</p>
+                <lable for="instore">pay in story</lable>
+                <input type="radio" id="instore" name="howpay">
+                <lable for="online">pay online</lable>
+                <input type="radio" id="online" name="howpay"><br>
+
+                <p>Add Condiments??</p>
+                <lable>BBQ Sauce</lable>
+                <input type="checkbox" id="bbq" name="bbq">
+                <lable for="ketchup">ketchup</lable>
+                <input type="checkbox" id="ketcheup" name="ketchup"><br>
+
+                <label for="pickup">Pickup Time</label>
+                <select id="pickup" name="pickup">
+                    <option value="morning">morning</options>
+                    <option value="afternoon">afternoon</option>
+                    <option value="evening">evening</option>
+                </select>
+
+            <input type="submit" value="send order">
+            <!--input is a void tag, no close-->
+
+
+        </form>
+    </body>
+        </html>

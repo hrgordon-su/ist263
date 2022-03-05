@@ -1,0 +1,7 @@
+body{font-family: 'Times New Roman', Times, serif;}
+p {color:blueviolet}
+h1, h2, h3, th, caption {color: coral;}
+.special{color: purple;}
+selector.evenrow {background-color: purple;}
+h1 {font: size 2em;}
+h2 {font-size: .5em;}

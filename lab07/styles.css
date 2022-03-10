@@ -1,0 +1,11 @@
+body{font-family: 'Times New Roman', Times, serif;}
+body {background-color: #F6E7D8;}
+p {color: #F68989}
+h1 {background-color: #874356;}
+a:hover {color: #0E185F;} 
+a:visited {color:#2FA4FF}
+nav {background-color: #F6E7D8;}
+nav a {color: #F4FCD9}
+nav a:hover{background-color: #F4FCD9;}
+nav {padding: 10px;}
+nav {margin-bottom: 30px;}

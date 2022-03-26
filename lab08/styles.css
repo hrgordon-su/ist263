@@ -1,0 +1,20 @@
+body{font-family: 'Times New Roman', Times, serif;}
+body {background-color: #F6E7D8;}
+p {color: #F68989}
+h1 {background-color: #874356;}
+a:hover {color: #0E185F;} 
+a:visited {color:#2FA4FF}
+nav {background-color: #F6E7D8;}
+nav a {color: #F4FCD9}
+nav a:hover{background-color: #F4FCD9;}
+nav {padding: 10px;}
+nav {margin-bottom: 30px;}
+span {float: right;}
+.floatright {float: right; margin: 10px;}
+.clear {clear: both;}
+.row1 {display: flex; background-color: #f0f0f0; border-radius: 1em; padding: 10px; margin: 20px;}
+.col1 {flex: 1; order: 1;}
+.col2 {flex: 1; order: 2}
+.row2 {display: flex; background-color: #f0f0f0; border-radius: 1em; padding: 10px; margin: 20px;}
+.col1a {flex: 1; order: 1; margin: 60px;}
+.col1b {flex: 1; order: 1; margin: 20px;}

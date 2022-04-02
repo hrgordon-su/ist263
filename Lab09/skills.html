@@ -6,12 +6,14 @@
         <link rel="stylesheet" href="styles.css">
         <style>
             table, th, td {border: 1px solid black;}
-            .skills {display: flex;}
-            .skills div {padding: 5%;}
-            .otherskills {background-color: lavender;
-            border-radius: 1em;
-            }
-            .flex2 {display: flex; float: right; margin: 5px;}
+            .firstbox, mainflex {display: flex;}
+            .firstbox {display: flex;}
+            .firstbox, div {justify-content: space-between; padding: 2%;}
+            .mainflex {flex: 1;}
+            .secondbox {background-color: lavender;
+            border-radius: 25px; justify-content: right;}
+          
+            
             
 
     
@@ -74,8 +76,8 @@
        
        
         
-    <div class="flex2">
-        <div class="skills">
+<div class="mainflex">
+        <div class="firstbox">
             <div>
                 <img src="../images/graphic design.png" alt="Photoshop" width="70px">
                 <p>Graphic Design</p>
@@ -96,8 +98,9 @@
                 <img src="../images/excel.png" alt="MC Excel" width="70px">
                 <p>Data Analytics</p>
             </div>
+
     
-        <div class="otherskills">
+        <div class="secondbox">
             <aside>
                 <h2>Other Skills</h2>
                 Microsoft Word <br>
@@ -108,7 +111,7 @@
             </aside>
         </div>
     </div>
-    </div>
+</div>
     
 </body>
 </html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 11 notes</title>
+    <style>
+        /*
+        1. HTML link to anchor to our content area 
+        2. put an ID attribute into the place your want the anchor to go 
+        3. hide and show skip to content 
+        4. style the skip to content link 
+        */
+        #skip {
+            position: absolute; /*absolute means take it out page flow, use left tag to set position*/
+            left: -999px;
+            background-color: cadetblue;
+            padding: 5px;
+        }
+        #skip:focus {
+            left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#content">Skip to Content</a>
+        <a href="http://www.twitter.com" tabindex="4">Twitter</a>
+        <a href="index.html">Home</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <main>
+        <img src="image.jpg" alt="">
+        <h1>Accessibility</h1>
+        <h2>Semantic Tags</h2>
+        <h3>Aside</h3>
+        <h3>Nav</h3>
+        <h3>Footer</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti vero nulla fugit architecto itaque maiores illo! Quo nam, distinctio soluta consequuntur repudiandae dolore, non nisi nemo eum quibusdam qui voluptates!</p>
+        <h2>Heading Tags in Hierarchy</h2>
+    </main>
+    <footer id="content"> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore atque iusto iste placeat molestias, odit, accusamus doloribus delectus quidem sed soluta unde dolorum, ipsa nesciunt magnam ex. Quidem, eaque possimus!</p></footer>
+</body>
+</html>

@@ -14,13 +14,24 @@
 
         .toni {
         background-color: #ffffff;
-        padding: 40px; 
+        padding: 60px; 
         margin: 50px;
-        width: 30%;}
+        width: 60%;}
+        
         .wings {text-align: center;}
         .text {display: flex;
         border: white;}
-        
+    .row1 {display: flex; border-radius: 1em; padding: 10px; margin: 20px;}
+    .col1 {flex: 1; order: 1;}
+    .firstimage {flex: 1; order: 2}
+    .homepage {display: flex; background-color: #eeeeee; border-radius: 1em; padding: 10px; margin:20px;}
+    .firstimage {flex: 1; order: 1; margin: 60px;}
+    .together {flex: 1; order: 1; margin: 20px;}
+    .intro {font-size: 1.25em;}
+    .text {font-size: 1.25em;}
+    .quote {font-size: 1.25em;}
+    .quote {justify-content: center;}
+    .nav {font-size: 1.25em;}
        
     
 
@@ -28,24 +39,31 @@
 
 </head>
 <body>
-    <nav>
+    <nav class="nav">
         <a href="homepage.html">Home page<span>|</span></a>
         <a href="skeletonsite.html">Discover LA<span>|</span></a>
-        <a href="information.html">Light In the Darkness<span>|</span></a>
+        <a href="information.html">Light In the Darkness<span></span></a>
 
     </nav>
+    <div class="row1">
+        <article class="coll1">
     <h1>Los Angeles Street Art</h1>
-    <p>Along with the glamor and shine of Hollywood, Los Angeles is the cornerstone of the history of street art. These painting and murals reflect the different neighborhoods, people, and culture LA has to offer. Many artists use their gift to express themselves and portray what is happening in the city and around the world. What makes street art so special is the freedom it allots artists to show and say exactly how they feel. There is beauty and creativity all around Los Angeles all you have to do is walk outside… </p><br>
+    <p class="intro"> Along with the glamor and shine of Hollywood, Los Angeles is the cornerstone of the history of street art. These painting and murals reflect the different neighborhoods, people, and culture LA has to offer. Many artists use their gift to express themselves and portray what is happening in the city and around the world. What makes street art so special is the freedom it allots artists to show and say exactly how they feel. There is beauty and creativity all around Los Angeles all you have to do is walk outside… </p><br>
+    </article>
+    </div>
+
 <div class="homepage">
-<div class=firstimage>
+    <article class="firstimage">
     <img class="toni" src="../images/intro.jpg" alt="Introimage" width="300">
-    <p>“THIS IS PRECISELY THE TIME WHEN ARTIST GO TO WORK. THERE IS NO TIME FOR DISPARE, NO PLACE FOR SELF-PITY, NO NEED FOR SILENCE, NO ROOM FOR FEAR. WE SPEAK, WE WRITE, WE DO LANGUAGE. THAT IS HOW CIVILIZATIONS HEAL” -Toni Morrison </p><br>
-</div>
-<div class="together">
+    <p class="quote"> “THIS IS PRECISELY THE TIME WHEN ARTIST GO TO WORK. THERE IS NO TIME FOR DISPARE, NO PLACE FOR SELF-PITY, NO NEED FOR SILENCE, NO ROOM FOR FEAR. WE SPEAK, WE WRITE, WE DO LANGUAGE. THAT IS HOW CIVILIZATIONS HEAL” -Toni Morrison </p><br>
+    </article>
+
+
+<aside class="together">
     <img src="../images/intro2.jpg" alt="introimage2" width="400"><br>
+</aside>
 </div>
   
-</div>
 <div class="wings">
     <img src="../images/IMG_3462.jpeg" alt="wings" width="300"><br>
     <p>8401 W 3rd St, Los Angeles 90048, another at 453 Colyton Street</p>
